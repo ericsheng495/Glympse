@@ -1,2 +1,2 @@
-# Glympse-
-MERN application 
+# Glympse
+Location Sharing appling using MERN application 
