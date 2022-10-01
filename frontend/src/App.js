@@ -9,12 +9,15 @@ function App() {
       <BrowserRouter>
         {/* switch = if-else route render */}
         <Switch>
+          {/* user path  */}
           <Route path="/" exact>
-            <Users></Users>
+            <Users />
           </Route>
-          <Route path="/places/new" exact>
+          {/* place path */}
+          <Route path="/places/new">
             <NewPlace></NewPlace>
           </Route>
+          {/* redirect route */}
           <Redirect to="/" />
         </Switch>
       </BrowserRouter>
